@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz id="final_quiz_recap" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" ditaarch:DITAArchVersion="1.3">
+  <title>Final Quiz Recap (Course Review)</title>
+  <shortdesc>This optional final quiz covers all major concepts from the course to reinforce your understanding.</shortdesc>
+  <quizbody>
+    <question id="q1">
+      <qtext>Which of the following is NOT a core topic type in DITA?</qtext>
+      <answer>a) Concept</answer>
+      <answer>b) Task</answer>
+      <answer>c) Guide</answer>
+      <answer>d) Reference</answer>
+    </question>
+    <question id="q2">
+      <qtext>What is a DITA map primarily used for?</qtext>
+      <answer>a) Formatting styles</answer>
+      <answer>b) Organizing and assembling topics for output</answer>
+      <answer>c) Translating content</answer>
+      <answer>d) Creating short descriptions</answer>
+    </question>
+    <question id="q3">
+      <qtext>Why is structured authoring beneficial?</qtext>
+      <answer>a) It looks better in Microsoft Word</answer>
+      <answer>b) It makes PDF formatting faster</answer>
+      <answer>c) It separates content from format and improves scalability</answer>
+      <answer>d) It reduces the need for training</answer>
+    </question>
+    <question id="q4">
+      <qtext>Which attribute helps you reuse a paragraph or a series of steps from another topic with automatic synchronization?</qtext>
+      <answer>a) href</answer>
+      <answer>b) copy-to</answer>
+      <answer>c) conref</answer>
+      <answer>d) lang</answer>
+    </question>
+    <question id="q5">
+      <qtext>What tool transforms DITA content into deliverables like HTML or PDF?</qtext>
+      <answer>a) XML Viewer</answer>
+      <answer>b) DITA Open Toolkit</answer>
+      <answer>c) WordPress</answer>
+      <answer>d) Markdown Editor</answer>
+    </question>
+  </quizbody>
+</quiz>

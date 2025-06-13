@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="quiz_short_descriptions" xml:lang="en-US">
+  <title>Quiz: Short Descriptions</title>
+  <shortdesc>Test your understanding of the structure, purpose, and best practices of DITA short descriptions.</shortdesc>
+  <prolog>
+    <author>Course Team</author>
+    <critdates>
+      <created date="2025-06-12"/>
+    </critdates>
+  </prolog>
+  <conbody>
+    <ol>
+      <li>What is the main goal of a short description in DITA? 
+        <ul>
+          <li>a) To replace the title</li>
+          <li><b>b) To summarize the topic for readers and improve navigation</b></li>
+          <li>c) To display steps</li>
+          <li>d) To show metadata</li>
+        </ul>
+      </li>
+      <li>What is the optimal length range for effective short descriptions? 
+        <ul>
+          <li>a) 10-15 words</li>
+          <li><b>b) 25-50 words</b></li>
+          <li>c) 75-100 words</li>
+          <li>d) 100-150 words</li>
+        </ul>
+      </li>
+      <li>Where should the &lt;shortdesc&gt; element appear in a topic file? 
+        <ul>
+          <li>a) Before the title</li>
+          <li>b) Inside the steps</li>
+          <li><b>c) Directly after the title, before the body</b></li>
+          <li>d) At the end of the topic</li>
+        </ul>
+      </li>
+      <li>Which short description pattern is most appropriate for task topics? 
+        <ul>
+          <li>a) Brief definition + why it matters</li>
+          <li><b>b) Goal statement + when to perform</b></li>
+          <li>c) Content scope + intended use</li>
+          <li>d) Problem description + resolution method</li>
+        </ul>
+      </li>
+      <li>What makes a short description ineffective? 
+        <ul>
+          <li>a) It is two sentences long</li>
+          <li><b>b) It restates the title without adding value</b></li>
+          <li>c) It provides context</li>
+          <li>d) It uses clear, concise language</li>
+        </ul>
+      </li>
+    </ol>
+  </conbody>
+</concept>

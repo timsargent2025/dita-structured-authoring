@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map title="DITA Structured Authoring Course">
+  <topicgroup navtitle="DITA Structured Authoring">
+    <topicref href="dita_structured_authoring.dita" format="dita">
+      <topicref href="part1_introduction_to_dita.dita" format="dita"/>
+      <topicref href="why_structured_authoring_matters.dita" format="dita"/>
+      <topicref href="key_benefits_structured_authoring.dita" format="dita"/>
+      <topicref href="what_is_dita.dita" format="dita"/>
+      <topicref href="advantages_of_using_dita.dita" format="dita"/>
+      <topicref href="dita_vs_other_standards.dita" format="dita"/>
+      <topicref href="summary_part1_key_takeaways.dita" format="dita"/>
+      <topicref href="quiz_introduction_to_dita.dita" format="dita"/>
+    </topicref>
+  </topicgroup>
+  <topicgroup navtitle="Part II: DITA Maps">
+    <topicref href="part2_dita_maps.dita" format="dita">
+      <topicref href="what_are_dita_maps.dita" format="dita"/>
+      <topicref href="organization_with_dita_maps.dita" format="dita"/>
+      <topicref href="relationship_tables_reltables.dita" format="dita"/>
+      <topicref href="navigation_with_dita_maps.dita" format="dita"/>
+      <topicref href="summary_part2_key_takeaways.dita" format="dita"/>
+      <topicref href="quiz_dita_maps.dita" format="dita"/>
+    </topicref>
+  </topicgroup>
+  <topicgroup navtitle="Part III: Topic Types">
+    <topicref href="part3_topic_types.dita" format="dita">
+      <topicref href="concept_topics.dita" format="dita"/>
+      <topicref href="task_topics.dita" format="dita"/>
+      <topicref href="reference_topics.dita" format="dita"/>
+      <topicref href="glossary_entries.dita" format="dita"/>
+      <topicref href="troubleshooting_topics.dita" format="dita"/>
+      <topicref href="summary_part3_key_takeaways.dita" format="dita"/>
+      <topicref href="quiz_topic_types.dita" format="dita"/>
+    </topicref>
+  </topicgroup>
+  <topicgroup navtitle="Part IV: Short Descriptions">
+    <topicref href="part4_short_descriptions.dita" format="dita">
+      <topicref href="definition_and_purpose_shortdesc.dita" format="dita"/>
+      <topicref href="structure_and_guidelines_shortdesc.dita" format="dita"/>
+      <topicref href="examples_effective_ineffective_shortdesc.dita" format="dita"/>
+      <topicref href="summary_part4_key_takeaways.dita" format="dita"/>
+      <topicref href="quiz_short_descriptions.dita" format="dita"/>
+    </topicref>
+  </topicgroup>
+  <topicgroup navtitle="Part V: Content Reuse">
+    <topicref href="part5_content_reuse.dita" format="dita">
+      <topicref href="why_content_reuse_is_important.dita" format="dita"/>
+      <topicref href="attributes_for_content_reuse.dita" format="dita"/>
+      <topicref href="examples_content_reuse.dita" format="dita"/>
+      <topicref href="summary_part5_key_takeaways.dita" format="dita"/>
+      <topicref href="quiz_content_reuse.dita" format="dita"/>
+    </topicref>
+  </topicgroup>
+  <topicgroup navtitle="Part VI: Publishing DITA Content">
+    <topicref href="publishing_dita_content.dita" format="dita">
+      <topicref href="dita_outputs.dita" format="dita"/>
+      <topicref href="language_translation_customization.dita" format="dita"/>
+      <topicref href="summary_part_vi.dita" format="dita"/>
+      <topicref href="quiz_publishing_dita_content.dita" format="dita"/>
+    </topicref>
+  </topicgroup>
+  <topicgroup navtitle="Conclusion">
+    <topicref href="conclusion.dita" format="dita">
+      <topicref href="what_is_dita.dita" format="dita"/>
+      <topicref href="next-steps.dita" format="dita"/>
+      <topicref href="final-quiz-recap.dita" format="dita"/>
+    </topicref>
+  </topicgroup>
+</map>

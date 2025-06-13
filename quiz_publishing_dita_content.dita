@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="quiz_publishing_dita_content">
+    <title>Quiz: Publishing DITA Content</title>
+    <body>
+        <section>
+            <title>Quiz Questions</title>
+            <ul>
+                <li>1. What is the main benefit of DITA's multi-channel publishing? a) Create separate content for each output b) Avoid structured writing c) Write once, publish to many formats d) Translate everything manually</li>
+                <li>2. Which tool is most commonly used for transforming DITA into output formats? a) FrameMaker b) DITA Open Toolkit (DITA-OT) c) Excel d) Markdown</li>
+                <li>3. How does DITA reduce localization costs? a) All content is excluded from translation b) It combines languages into one file c) Reusable components only need translation once d) It automatically generates all language versions</li>
+                <li>4. What does the translation="no" attribute do? a) Enables language switching b) Prevents content from being reused c) Flags content to skip during translation d) Translates content automatically</li>
+                <li>5. How can PDF output be customized in DITA? a) Editing CSS only b) Adjusting FrameMaker settings c) Using XSL-FO or visual tools in editors like Oxygen d) By exporting HTML and printing it</li>
+            </ul>
+        </section>
+    </body>
+</topic>
