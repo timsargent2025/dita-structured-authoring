@@ -56,7 +56,8 @@
       <topicref href="quiz_publishing_dita_content.dita" navtitle="Quiz: Publishing DITA Content"/>
     </topicref>
 
-    <topicref href="conclusion.dita" navtitle="Part VII: Conclusion">
+    <topicref navtitle="Part VII: Conclusion">
+      <topicref href="conclusion.dita" navtitle="Conclusion"/>
       <topicref href="next-steps.dita" navtitle="Next Steps"/>
     </topicref>
 
