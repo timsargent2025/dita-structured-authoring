@@ -1,0 +1,44 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html lang="en-us"><head><meta charset="UTF-8"><meta name="copyright" content="(C) Copyright 2025"><meta name="generator" content="DITA-OT"><meta name="description" content="DITA maps influence navigation in output formats, enabling automatic generation and context-sensitive structures."><title>Navigation</title><link rel="stylesheet" type="text/css" href="commonltr.css"></head><body id="navigation_with_dita_maps"><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+  <h1 class="title topictitle1" id="ariaid-title1">Navigation</h1>
+  
+  
+  <div class="body conbody"><p class="shortdesc">DITA maps influence navigation in output formats, enabling automatic generation and context-sensitive structures.</p>
+    <p class="p">DITA maps heavily influence how navigation appears in output formats like PDFs, HTML help, or portals. They ensure sophisticated navigation that adapts to different output formats automatically.</p>
+
+    <section class="section"><h2 class="title sectiontitle">Automatic Navigation Generation</h2>
+      
+      <ul class="ul">
+        <li class="li"><strong class="ph b">Web Output:</strong> Maps generate breadcrumb navigation, left-hand table of contents (TOC), expandable navigation panels, "Related Links" sections (based on relationship tables), and search-friendly URL structures.</li>
+        <li class="li"><strong class="ph b">PDF Output:</strong> Maps create a table of contents with page numbers, running headers showing the current section, cross-reference links with page number citations, and bookmarks for easy navigation.</li>
+      </ul>
+      <p class="p">This automatic navigation generation ensures consistency across formats without manual maintenance, which reduces user confusion and support costs.</p>
+    </section>
+
+    <section class="section"><h2 class="title sectiontitle">Navigation Titles vs. Content Titles</h2>
+      
+      <p class="p">The &lt;navtitle&gt; attribute allows you to specify a navigation-specific title for a topic reference, which can be different from the topic's actual title.</p>
+      <p class="p"><strong class="ph b">Example:</strong></p>
+      <pre class="pre">
+&lt;topicref href="advanced-user-management-procedures.dita" navtitle="User Management"/&gt;
+      </pre>
+      <p class="p">This allows long, descriptive topic titles to be shortened for navigation menus or tables of contents without changing the actual content, improving both usability and SEO.</p>
+    </section>
+
+    <section class="section"><h2 class="title sectiontitle">Progressive Disclosure</h2>
+      
+      <p class="p">DITA maps can define multiple levels of navigation detail, allowing users to progressively discover more specific information. This means users can quickly find their area of interest without being overwhelmed by detailed navigation options. For example, Level 1 might be major functional areas, Level 2 specific task categories, and Level 3 individual procedures.</p>
+    </section>
+
+    <section class="section"><h2 class="title sectiontitle">Context-Sensitive Navigation</h2>
+      
+      <p class="p">Maps can define different navigation structures for different contexts or user roles. For instance, an API documentation map might show different navigation paths for developers, architects, and product managers, all drawing from the same underlying topics.</p>
+    </section>
+
+    <section class="section"><h2 class="title sectiontitle">Mobile-Responsive Navigation</h2>
+      
+      <p class="p">Map-generated navigation should be designed to work effectively across various device types, with best practices including limiting navigation depth (e.g., 3-4 levels), using concise labels, and designing hierarchies that collapse logically on smaller screens. This directly impacts user adoption and satisfaction, especially in field service or support scenarios.</p>
+    </section>
+  </div>
+<nav role="navigation" class="related-links"><div class="familylinks"><div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="part2_dita_maps.html" title="This module introduces DITA maps and their role in organizing and linking topics for publication.">Part II: DITA Maps</a></div></div></nav></article></main></body></html>

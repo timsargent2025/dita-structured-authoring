@@ -1,0 +1,63 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html lang="en-us"><head><meta charset="UTF-8"><meta name="copyright" content="(C) Copyright 2025"><meta name="generator" content="DITA-OT"><meta name="description" content="Task topics provide clear, step-by-step instructions for completing specific procedures and reducing user errors."><title>Task Topics</title><link rel="stylesheet" type="text/css" href="commonltr.css"></head><body id="task_topics"><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+  <h1 class="title topictitle1" id="ariaid-title1">Task Topics</h1>
+  
+  
+  <div class="body conbody"><p class="shortdesc">Task topics provide clear, step-by-step instructions for completing specific procedures and reducing user errors.</p>
+    <section class="section"><h2 class="title sectiontitle">Use</h2>
+      
+      <p class="p">Task topics provide clear, step-by-step instructions for completing a procedure. They are best used when guiding users through a specific action, such as installing software, configuring settings, or submitting forms. Tasks reduce user errors by presenting actions in a consistent, predictable way, making them ideal for call centers, onboarding flows, and support documentation.</p>
+    </section>
+
+    <section class="section"><h2 class="title sectiontitle">User Intent</h2>
+      
+      <p class="p">"I need to get something done right now."</p>
+    </section>
+
+    <section class="section"><h2 class="title sectiontitle">Common Tags</h2>
+      
+      <ul class="ul">
+        <li class="li">&lt;task&gt;: Root element.</li>
+        <li class="li">&lt;title&gt;: Action name (e.g., "Reset Your Password").</li>
+        <li class="li">&lt;shortdesc&gt;: Quick summary.</li>
+        <li class="li">&lt;taskbody&gt;: Container for steps and results.</li>
+        <li class="li">&lt;steps&gt; and &lt;step&gt;: Ordered procedural instructions.</li>
+        <li class="li">&lt;result&gt;: Outcome of the task.</li>
+        <li class="li">&lt;prereq&gt;: Optional requirements before starting.</li>
+        <li class="li">&lt;context&gt;: When and why to perform this task.</li>
+        <li class="li">&lt;postreq&gt;: Recommended follow-up actions.</li>
+      </ul>
+    </section>
+
+    <section class="section"><h2 class="title sectiontitle">Step Structure Best Practices</h2>
+      
+      <ul class="ul">
+        <li class="li">One action per step.</li>
+        <li class="li">Use imperative voice (e.g., "Click Save").</li>
+        <li class="li">Include expected results for complex steps.</li>
+        <li class="li">Provide specific UI element names and locations.</li>
+        <li class="li">Use conditional steps for different scenarios.</li>
+        <li class="li">Test task topics with actual users to identify gaps and ensure clarity.</li>
+      </ul>
+    </section>
+
+    <section class="section"><h2 class="title sectiontitle">Sample XML Code</h2>
+      
+      <pre class="pre">
+&lt;task id="resetpassword"&gt;
+  &lt;title&gt;Reset Your Password&lt;/title&gt;
+  &lt;shortdesc&gt;This procedure resets your account password using email verification.&lt;/shortdesc&gt;
+  &lt;taskbody&gt;
+    &lt;steps&gt;
+      &lt;step&gt;Go to the login page and click "Forgot Password".&lt;/step&gt;
+      &lt;step&gt;Enter your registered email address.&lt;/step&gt;
+      &lt;step&gt;Follow the link sent to your email to set a new password.&lt;/step&gt;
+    &lt;/steps&gt;
+    &lt;result&gt;Your password is now updated and you can log in.&lt;/result&gt;
+  &lt;/taskbody&gt;
+&lt;/task&gt;
+      </pre>
+    </section>
+  </div>
+<nav role="navigation" class="related-links"><div class="familylinks"><div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="part3_topic_types.html" title="This module introduces core DITA topic types and their appropriate usage to improve content clarity and organization.">Part III: Topic Types</a></div></div></nav></article></main></body></html>

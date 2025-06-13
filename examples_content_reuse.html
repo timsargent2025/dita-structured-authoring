@@ -1,0 +1,32 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html lang="en"><head><meta charset="UTF-8"><meta name="copyright" content="(C) Copyright 2025"><meta name="generator" content="DITA-OT"><meta name="description" content="Real-world use cases demonstrating DITA content reuse strategies across different scenarios and industries."><title>Examples of Content Reuse</title><link rel="stylesheet" type="text/css" href="commonltr.css"></head><body id="examples_content_reuse"><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+  <h1 class="title topictitle1" id="ariaid-title1">Examples of Content Reuse</h1>
+  
+  <div class="body conbody"><p class="shortdesc">Real-world use cases demonstrating DITA content reuse strategies across different scenarios and industries.</p>
+    <section class="section"><h2 class="title sectiontitle">Enterprise Software Documentation Example</h2>
+      
+      <p class="p"><strong class="ph b">Scenario:</strong> A software company has three product editions sharing 70% common functionality.</p>
+      <p class="p"><strong class="ph b">Reuse Strategy:</strong> Create a shared content library for common procedures (e.g., user account creation steps). Use conref to include these steps in product-specific task topics. Use product attributes within the shared content and in publication configurations to filter for each edition (Basic, Professional, Enterprise).</p>
+      <p class="p"><strong class="ph b">Business Outcome:</strong> A single content source generates three distinct user guides with appropriate feature coverage for each product tier, reducing duplication and maintenance.</p>
+    </section>
+    <section class="section"><h2 class="title sectiontitle">Multi-Platform Installation Guide Example</h2>
+      
+      <p class="p"><strong class="ph b">Challenge:</strong> Support installation across Windows, macOS, and Linux with shared prerequisites and post-installation steps.</p>
+      <p class="p"><strong class="ph b">Reuse Implementation:</strong> Create platform-neutral content (e.g., system requirements, backup warnings) using conref. Use platform attributes within &lt;choice&gt; elements in task steps to provide platform-specific instructions.</p>
+      <p class="p"><strong class="ph b">Publishing Result:</strong> Platform-specific installation guides that share common content while providing appropriate platform instructions, eliminating the need for entirely separate documents.</p>
+    </section>
+    <section class="section"><h2 class="title sectiontitle">Regulatory Compliance Example</h2>
+      
+      <p class="p"><strong class="ph b">Scenario:</strong> Healthcare software requiring HIPAA compliance information across multiple user guides.</p>
+      <p class="p"><strong class="ph b">Compliance Reuse Strategy:</strong> Create a dedicated compliance content library. Use conref to embed HIPAA warnings or notes in relevant task or concept topics, often combined with otherprops for compliance-specific filtering (e.g., otherprops="healthcare" or otherprops="hipaa").</p>
+      <p class="p"><strong class="ph b">Compliance Benefit:</strong> Ensures consistent regulatory information across all documentation with single-point updates when regulations change, reducing legal risk.</p>
+    </section>
+    <section class="section"><h2 class="title sectiontitle">Translation Efficiency Example</h2>
+      
+      <p class="p"><strong class="ph b">Challenge:</strong> A global software company needs to translate documentation into 12 languages with significant content overlap.</p>
+      <p class="p"><strong class="ph b">Translation-Optimized Reuse:</strong> Identify highly reusable content (error messages, navigation instructions, safety warnings, common procedural steps). Use conref for these elements. DITA also provides the translate="no" attribute to explicitly exclude specific content (e.g., brand names, code snippets, non-translatable strings) from translation, further optimizing costs.</p>
+      <p class="p"><strong class="ph b">Translation ROI:</strong> DITA's modularity and reuse lead to significant cost reductions (up to 40%) through leveraged translation memory and elimination of duplicate translation work.</p>
+    </section>
+  </div>
+<nav role="navigation" class="related-links"><div class="familylinks"><div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="part5_content_reuse.html" title="Learn about the importance, methods, and best practices for content reuse in DITA.">Part V: Content Reuse</a></div></div></nav></article></main></body></html>
