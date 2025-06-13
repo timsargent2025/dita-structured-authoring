@@ -5,60 +5,45 @@
   <shortdesc>This quiz checks your understanding of publishing processes and translation workflows in DITA.</shortdesc>
   <body>
 
-    <section>
-      <title>Question 1</title>
-      <p>What is the main benefit of DITA's multi-channel publishing?</p>
-      <ul>
-        <li>a) Create separate content for each output</li>
-        <li>b) Avoid structured writing</li>
-        <li><b>c) Write once, publish to many formats</b></li>
-        <li>d) Translate everything manually</li>
-      </ul>
-    </section>
+    <p>1. What is the main benefit of DITA's multi-channel publishing?</p>
+    <ul>
+      <li>a) Create separate content for each output</li>
+      <li>b) Avoid structured writing</li>
+      <li><b>c) Write once, publish to many formats</b></li>
+      <li>d) Translate everything manually</li>
+    </ul>
 
-    <section>
-      <title>Question 2</title>
-      <p>Which tool is most commonly used for transforming DITA into output formats?</p>
-      <ul>
-        <li>a) FrameMaker</li>
-        <li><b>b) DITA Open Toolkit (DITA-OT)</b></li>
-        <li>c) Excel</li>
-        <li>d) Markdown</li>
-      </ul>
-    </section>
+    <p>2. Which tool is most commonly used for transforming DITA into output formats?</p>
+    <ul>
+      <li>a) FrameMaker</li>
+      <li><b>b) DITA Open Toolkit (DITA-OT)</b></li>
+      <li>c) Excel</li>
+      <li>d) Markdown</li>
+    </ul>
 
-    <section>
-      <title>Question 3</title>
-      <p>How does DITA reduce localization costs?</p>
-      <ul>
-        <li>a) All content is excluded from translation</li>
-        <li>b) It combines languages into one file</li>
-        <li><b>c) Reusable components only need translation once</b></li>
-        <li>d) It automatically generates all language versions</li>
-      </ul>
-    </section>
+    <p>3. How does DITA reduce localization costs?</p>
+    <ul>
+      <li>a) All content is excluded from translation</li>
+      <li>b) It combines languages into one file</li>
+      <li><b>c) Reusable components only need translation once</b></li>
+      <li>d) It automatically generates all language versions</li>
+    </ul>
 
-    <section>
-      <title>Question 4</title>
-      <p>What does the <code>translation="no"</code> attribute do?</p>
-      <ul>
-        <li>a) Enables language switching</li>
-        <li>b) Prevents content from being reused</li>
-        <li><b>c) Flags content to skip during translation</b></li>
-        <li>d) Translates content automatically</li>
-      </ul>
-    </section>
+    <p>4. What does the <code>translation="no"</code> attribute do?</p>
+    <ul>
+      <li>a) Enables language switching</li>
+      <li>b) Prevents content from being reused</li>
+      <li><b>c) Flags content to skip during translation</b></li>
+      <li>d) Translates content automatically</li>
+    </ul>
 
-    <section>
-      <title>Question 5</title>
-      <p>How can PDF output be customized in DITA?</p>
-      <ul>
-        <li>a) Editing CSS only</li>
-        <li>b) Adjusting FrameMaker settings</li>
-        <li><b>c) Using XSL-FO or visual tools in editors like Oxygen</b></li>
-        <li>d) By exporting HTML and printing it</li>
-      </ul>
-    </section>
+    <p>5. How can PDF output be customized in DITA?</p>
+    <ul>
+      <li>a) Editing CSS only</li>
+      <li>b) Adjusting FrameMaker settings</li>
+      <li><b>c) Using XSL-FO or visual tools in editors like Oxygen</b></li>
+      <li>d) By exporting HTML and printing it</li>
+    </ul>
 
   </body>
 </topic>
