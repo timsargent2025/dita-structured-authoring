@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<quiz id="final_quiz_recap" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" ditaarch:DITAArchVersion="1.3">
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="final-quiz">
   <title>Final Quiz Recap (Course Review)</title>
   <shortdesc>This optional final quiz covers all major concepts from the course to reinforce your understanding.</shortdesc>
   <quizbody>
