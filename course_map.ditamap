@@ -56,9 +56,9 @@
       <topicref href="quiz_publishing_dita_content.dita" navtitle="Quiz: Publishing DITA Content"/>
     </topicref>
 
-    <topicref href="conclusion.dita" navtitle="Part VII: Conclusion">
-      <topicref href="next-steps.dita" navtitle="Next Steps"/>
-      <topicref href="final-quiz-recap.dita" navtitle="Final Quiz"/>
+    <topicref href="conclusion.dita" navtitle="Part VII: Conclusion" processing-role="normal">
+      <topicref href="next-steps.dita" navtitle="Next Steps" processing-role="normal"/>
+      <topicref href="final-quiz-recap.dita" navtitle="Final Quiz" processing-role="normal"/>
     </topicref>
 
   </topicref>
