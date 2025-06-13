@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map title="DITA Structured Authoring Course">
-
+   <topicref href="index.dita" navtitle="Course Introduction"/>
   <topicref href="dita_structured_authoring.dita" navtitle="DITA Structured Authoring">
 
     <topicref href="part1_introduction_to_dita.dita" navtitle="Part I: Introduction to DITA">
