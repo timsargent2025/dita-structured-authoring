@@ -1,37 +1,35 @@
-name: Build and Deploy to gh-pages
+name: build-dita
 
 on:
   push:
-    branches: [ main ]
-  workflow_dispatch:
+    branches:
+      - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-    - name: Set up Java
-      uses: actions/setup-java@v4
-      with:
-        java-version: '17'
-        distribution: 'temurin'
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
 
-    - name: Install DITA-OT
-      run: |
-        curl -LO https://github.com/dita-ot/dita-ot/releases/download/4.1.1/dita-ot-4.1.1.zip
-        unzip dita-ot-4.1.1.zip
-        mv dita-ot-4.1.1 dita-ot
+      - name: Install DITA-OT
+        run: |
+          curl -L -o dita-ot.zip https://github.com/dita-ot/dita-ot/releases/download/4.2.1/dita-ot-4.2.1.zip
+          unzip dita-ot.zip
+          echo "$GITHUB_WORKSPACE/dita-ot-4.2.1/bin" >> $GITHUB_PATH
 
-    - name: Build DITA HTML5 output
-      run: dita -i course_map.ditamap -f html5 -o out --args.css=customization/css/custom.css
+      - name: Build DITA HTML5 output
+        run: dita -i course_map.ditamap -f html5 -o out --args.css=customization/css/custom.css
 
-    - name: Deploy to gh-pages branch
-      uses: peaceiris/actions-gh-pages@v4
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./site
-        publish_branch: gh-pages
-        force_orphan: true
+      - name: Deploy to gh-pages branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./out
