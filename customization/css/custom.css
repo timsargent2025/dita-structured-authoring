@@ -1,0 +1,36 @@
+/* Keep the sidebar always visible and scrollable */
+.navpanel, .toc {
+  display: block !important;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  overflow-y: auto;
+  width: 300px;
+  background-color: #f9f9f9;
+  border-right: 1px solid #ccc;
+  padding: 1em;
+  z-index: 1000;
+}
+
+/* Adjust the content panel to make room for the sidebar */
+.body {
+  margin-left: 320px;
+  padding: 2em;
+}
+
+/* Optional: Better link color and hover state */
+a {
+  color: #0645ad;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Optional: Improve readability */
+body {
+  font-family: system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
